@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header__nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: inline-block;
+    width: 120px;
+    height: 151px;
+    flex-shrink: 0;
+    margin-bottom: 79px;
+    margin-top: 50px;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.header__item {
+    margin-right: 30px;
+}
+
+.header__link {
+    color: #8c8a8a;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.main__img {
+    height: 450px;
+    width: 100%;
+}
+.main__block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 450px 500px;
+    grid-gap: 30px;
+}
+.main__block1 {
+    grid-column: span 3;
+}
+.main__block2 {
+    grid-column: span 2;
+    padding: 50px 95px 51px 40px;
+    background: var(--grey, #f0f0f0);
+}
+.main__name {
+    color: #4581b7;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+}
+.main__text {
+    color: #808080;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+}
+.main__block3 {
+    padding: 50px 95px 51px 40px;
+    background: var(--grey, #f0f0f0);
+}
+.main__block3 p a {
+    text-decoration: none;
+    display: block;
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+}
+.main__link {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.footer {
+    margin-top: 30px;
+}
+.footer__block {
+    background: var(--grey, #f0f0f0);
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+.footer__name {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+.footer__number {
+    color: #808080;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+

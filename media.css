@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 992px) {
+    .main__block.container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 768px) {
+    .haeder__logo{
+        display: flex;
+        justify-content: center;
+    }
+    .header__list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .main__img{
+        height: 300px;
+        width: 100%;
+    }
+    
+}
+@media (max-width: 576px) {
+    .footer__block.container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+}
